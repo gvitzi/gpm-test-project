@@ -1,0 +1,9 @@
+version: v1.0
+package:
+  name: test-project
+  files:
+  - file1.txt
+  - lib/file2.txt
+  dependencies:
+  - url: https://raw.githubusercontent.com/gvitzi/t_slot_extrusion/main/extrusion.scad
+  - url: https://raw.githubusercontent.com/gvitzi/solidpython-drawer-organzier/main/divider_box.py
